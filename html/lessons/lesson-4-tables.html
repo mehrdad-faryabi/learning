@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lesson 4 - Tables</title>
+
+	<style>
+		table th,
+		table td {
+			text-align: center;
+			padding: 10px;
+		}
+
+		table,
+		table th,
+		table td {
+			border-collapse: collapse;
+		}
+
+		table th {
+			color: purple;
+			font-size: 18px;
+		}
+	</style>
+</head>
+
+<body>
+	<table border="1">
+		<caption>this is a caption</caption>
+
+		<thead>
+			<tr>
+				<th abbr="this is the person name">Name</th>
+				<th>Age</th>
+				<th>Gender</th>
+			</tr>
+		</thead>
+
+		<tbody>
+			<tr>
+				<td>Roberta</td>
+				<td>39</td>
+				<td>female</td>
+			</tr>
+
+			<tr>
+				<td>Oliver</td>
+				<td>25</td>
+				<td>male</td>
+			</tr>
+
+			<tr>
+				<td>Mohammad</td>
+				<td>27</td>
+				<td>male</td>
+			</tr>
+		</tbody>
+
+		<tfoot>
+			<tr>
+				<td colspan="3">sdfsdfasd</td>
+			</tr>
+		</tfoot>
+	</table>
+</body>
+
+</html>
