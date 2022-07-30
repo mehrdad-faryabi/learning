@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lesson 5 - Forms</title>
+</head>
+
+<body>
+	<div>
+		<h3>Form tags</h3>
+
+		<form method="get" action="api/login">
+			<div>
+				<label for="mail">Email: </label>
+				<input type="email" id="mail" name="mail">
+			</div>
+			<br>
+
+			<div>
+				<label for="pw">Password: </label>
+				<input type="password" id="pw" name="pw">
+			</div>
+			<br>
+
+			<div>
+				<label for="ck">Remember me</label>
+				<input type="checkbox" id="ck" name="ck">
+			</div>
+			<br>
+
+			<input type="submit" value="Login">
+		</form>
+	</div>
+
+	<hr>
+
+	<div>
+		<h3>Label tags</h3>
+
+		<!-- Nested label -->
+		<label>
+			Click me
+			<input type="text" id="user" name="name" />
+		</label>
+
+		<!-- 'for' attribute -->
+		<label for="user2">Click me</label>
+		<input id="user2" type="text" name="name2" />
+	</div>
+
+	<hr>
+
+	<div>
+		<h3>Textarea</h3>
+
+		<label for="address">Address</label>
+		<textarea rows="3" cols="30" name="address" id="address"></textarea>
+	</div>
+
+	<hr>
+
+	<div>
+		<h3>Radio Buttons</h3>
+		
+		<input type="radio" name="gender" id="m">
+		<label for="m">Male</label>
+
+		<input type="radio" name="gender" id="f">
+		<label for="f">Female</label>
+	</div>
+
+	<hr>
+
+	<div>
+		<h3>Checkboxes</h3>
+
+		<input type="checkbox" name="s" id="soc">
+		<label for="soc">Soccer</label>
+
+		<input type="checkbox" name="s" id="bas">
+		<label for="bas">Baseball</label>
+	</div>
+
+	<hr>
+
+	<div>
+		<h3>Select tags</h3>
+
+		<label for="city">City:</label>
+
+		<select name="city" id="city">
+			<option value="1">Sydney</option>
+			<option value="2">Melbourne</option>
+			<option value="3">Cromwell</option>
+		</select>
+	</div>
+
+	<hr>
+
+	<div>
+		<h3>Fieldset tags</h3>
+
+		<fieldset>
+			<legend>Your favorite monster</legend>
+
+			<input type="radio" id="kra" name="m">
+			<label for="kraken">Kraken</label><br />
+
+			<input type="radio" id="sas" name="m">
+			<label for="sas">Sasquatch</label>
+		</fieldset>
+	</div>
+
+	<hr>
+
+	<form action="register.php" method="post">
+		<h3>Submit and Reset Buttons</h3>
+		
+		<label for="foo">Name:</label>
+		<input type="text" name="name" id="foo">
+
+		<input type="submit" value="Submit">
+		<input type="reset" value="Reset">
+	</form>
+</body>
+
+</html>
