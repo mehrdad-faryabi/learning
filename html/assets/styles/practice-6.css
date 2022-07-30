@@ -1,0 +1,39 @@
+nav ul li{
+	display: inline-block;
+}
+
+nav ul li a{
+	text-decoration: none;
+	padding: 15px;
+	transition: 330ms;
+	border-radius: 25px;
+	color: blue;
+}
+
+a:hover{
+	transition: 330ms;
+	background-color: darkorange;
+	border-radius: 25px;
+	color: darkblue;
+}
+
+table,
+table th,
+table td{
+	border-collapse: collapse;
+}
+
+table th,
+table td{
+	text-align: center;
+	padding: 15px;
+	font-size: 18px;
+}
+
+table th{
+	color: darkgray;
+}
+
+table td{
+	color: darkblue;
+}
