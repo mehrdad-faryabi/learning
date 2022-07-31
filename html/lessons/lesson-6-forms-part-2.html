@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lesson 6 - Forms - Part 2</title>
+
+	<style>
+		input {
+			color: greenyellow;
+		}
+
+		input:focus {
+			color: red;
+		}
+	</style>
+</head>
+
+<body>
+	<form action="">
+		<input type="text" name="fullname" placeholder="Please enter your fullname" autocomplete="off" maxlength="10" minlength="5" required />
+
+		<div>
+			<h3>Checkboxes</h3>
+
+			<input type="checkbox" name="s" id="soc">
+			<label for="soc">Soccer</label>
+
+			<input type="checkbox" name="s" id="bas" checked>
+			<label for="bas">Baseball</label>
+		</div>
+
+		<br>
+
+		<input type="number" min="5" max="10">
+
+		<br><br>
+
+		<input type="text" pattern="[a-z0-9]+@[a-z]+\.[a-z]{2,3}" autofocus>
+
+		<br>
+		<br>
+
+		<div>
+			<h3>Select tags</h3>
+
+			<label for="city">City:</label>
+
+			<select name="city" id="city" multiple>
+				<option value="1">Sydney</option>
+				<option value="2">Melbourne</option>
+				<option value="3">Cromwell</option>
+			</select>
+		</div>
+
+		<br>
+
+		<input type="file" name="avatar" accept=".png, .jpg">
+
+		<br>
+
+		<br>
+
+		<input type="submit" value="Submit">
+	</form>
+</body>
+
+</html>
