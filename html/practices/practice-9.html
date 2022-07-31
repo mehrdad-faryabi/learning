@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<div>
+		<form action="login/api" method="post">
+			<div>
+				<label for="em">Email:</label>
+				<input type="email" name="em" id="em">
+			</div>
+			
+			<br>
+			<div>
+				<label for="pw">Password:</label>
+				<input type="password" name="pw" id="pw">
+			</div>
+			<br>
+
+			<div>
+				<label for="cb">Remember me</label>
+				<input type="checkbox" id="cb" name="cb">
+			</div>
+			<br>
+
+			<div>
+				<input type="submit" value="Login">
+			</div>
+		</form>
+	</div>
+
+	<hr>
+
+	<div>
+		<label for="tex">Caption</label>
+		<textarea name="tex" id="tex" cols="30" rows="3"></textarea>
+	</div>
+
+	<hr>
+
+	<div>
+		<label for="m">Male</label>
+		<input type="radio" id="m" name="m">
+
+		<label for="f">Female</label>
+		<input type="radio" id="f" name="f">
+	</div>
+
+	<hr>
+
+	<div>
+		<label for="han">Hands</label>
+		<input type="checkbox" id="han" name="han">
+
+		<label for="fin">Fingers</label>
+		<input type="checkbox" id="fin" name="fin">
+	</div>
+
+	<hr>
+
+	<div>
+		<label for="ag">Age:</label>
+
+		<select name="ag" id="ag">
+			<option value="1">1999</option>
+			<option value="2">2000</option>
+			<option value="3">2001</option>
+			<option value="4">2002</option>
+		</select>
+	</div>
+
+	<hr>
+
+	<div>
+		<fieldset>
+			<legend>what are you diagnosed</legend>
+
+				<label for="an2">Deppression</label>
+				<input type="checkbox" id="an2" name="an2">
+
+				<label for="an">Cancer</label>
+				<input type="checkbox" id="an" name="an">
+		</fieldset>
+	</div>
+
+	<hr>
+
+	<div>
+		<form action="register.php" method="post">
+			<label for="nate">Name:</label>
+			<input type="text" name="nate" id="nate">
+
+			<input type="submit" value="login">
+			<input type="reset" value="reset">
+		</form>
+	</div>
+
+	<hr>
+
+	<div>
+		<ul>
+			<li>listed item</li>
+			<li>listed item</li>
+			<li>listed item</li>
+		</ul>
+
+		<ol>
+			<li>listed item</li>
+			<li>listed item</li>
+			<li>listed item</li>
+		</ol>
+
+		<dl>
+			<dt>Hello</dt>
+			<dd>How are ya</dd>
+
+			<dt>Did</dt>
+			<dd>you had fun</dd>
+		</dl>
+	</div>
+</body>
+</html>

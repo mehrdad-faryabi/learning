@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<div>
+		<form action="login/api" method="post">
+			<div>
+				<label for="mail">Email: </label>
+				<input type="email" id="mail" name="mail">
+			</div>
+			<br>
+
+			<div>
+				<label for="pw">Password: </label>
+				<input type="password" id="pw" name="pw">
+			</div>
+			<br>
+
+			<div>
+				<label for="cb">Remember me</label>
+				<input type="checkbox" id="cb" name="cb">
+			</div>
+			<br>
+
+			<div>
+				<input type="submit" value="Login">
+			</div>
+		</form>
+
+		<hr>
+
+		<div>
+			<label for="tex">Caption</label>
+			<textarea name="tex" id="tex" cols="30" rows="3"></textarea>
+		</div>
+
+		<hr>
+
+		<div>
+			<label for="fe">Female</label>
+			<input type="radio" id="fe" name="fe">
+
+			<label for="ma">male</label>
+			<input type="radio" id="ma" name="ma">
+		</div>
+
+		<hr>
+
+		<div>
+			<label for="cold">Cold</label>
+			<input type="checkbox" name="cold" id="cold">
+
+			<label for="hot">Hot</label>
+			<input type="checkbox" name="hot" id="hot">
+		</div>
+
+		<hr>
+
+		<div>
+			<label for="city">City:</label>
+
+			<select name="city" id="city">
+				<option value="1">Washington</option>
+				<option value="2">Atlanta</option>
+				<option value="3">New mexico</option>
+				<option value="4">chicago</option>
+			</select>
+		</div>
+
+		<hr>
+
+		<div>
+			<fieldset>
+				<legend>your fav animal</legend>
+
+				<label for="rg">pigeon</label>
+				<input type="checkbox" name="rg" id="rg">
+
+				<label for="tg">Lion</label>
+				<input type="checkbox" name="tg" id="tg">
+			</fieldset>
+		</div>
+		
+		<hr>
+
+		<div>
+			<form action="register.php" method="POST">
+				<label for="tb">Name:</label>
+				<input type="text" name="tb" id="tb">
+
+				<input type="submit">
+				<input type="reset">
+			</form>
+		</div>
+	</div>
+
+	<hr>
+
+	<div>
+		<div>
+			<ul>
+				<li>listed item</li>
+				<li>listed item</li>
+				<li>listed item</li>
+			</ul>
+		</div>
+		<hr>
+
+		<div>
+			<ol>
+				<li>listed item</li>
+				<li>listed item</li>
+				<li>listed item</li>
+			</ol>
+		</div>
+		<hr>
+
+		<div>
+			<dl>
+				<dt>hi</dt>
+				<dd>how are you today</dd>
+
+				<dt>hope</dt>
+				<dd>you've had fun</dd>
+			</dl>
+		</div>
+	</div>
+</body>
+</html>

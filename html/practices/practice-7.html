@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+
+<body>
+	<div>
+		<ul>
+			<li>listed item</li>
+			<li>listed item</li>
+			<li>listed item</li>
+		</ul>
+
+	<hr>
+
+		<ol>
+			<li>listed item</li>
+			<li>listed item</li>
+			<li>listed item</li>
+		</ol>
+
+	<hr>
+
+		<dl>
+			<dt>term description</dt>
+			<dd>deffinition or value</dd>
+
+			<dt>A term</dt>
+			<dd>A deffinition</dd>
+		</dl>
+	</div>
+
+	<hr>
+
+	<div>
+		<form method="post" action="api/login">
+			<div>
+				<label for="mail">Email: </label>
+				<input type="email" id="mail" name="mail">
+			</div>
+			<br>
+
+			<div>
+				<label for="pw">Password: </label>
+				<input type="password" id="pw" name="pw">
+			</div>
+			<br>
+
+			<div>
+				<label for="ck">Remember me</label>
+				<input type="checkbox" name="ck" id="ck">
+			</div>
+			<br>
+
+			<input type="submit" value="Login">
+		</form>
+	</div>
+
+	<hr>
+
+	<div>
+		<label for="address">Caption</label>
+		<textarea name="address" id="address" cols="30" rows="2"></textarea>
+	</div>
+
+	<hr>
+
+	<div>
+		<label for="m">Male</label>
+		<input type="radio" id="m" name="gender">
+
+		<label for="f">Female</label>
+		<input type="radio" id="f" name="gender">
+	</div>
+
+	<hr>
+
+	<div>
+		<label for="dog">Dogs</label>
+		<input type="checkbox" id="dog" name="dog">
+
+		<label for="cat">Cats</label>
+		<input type="checkbox" id="cat" name="cat">
+	</div>
+
+	<hr>
+
+	<div>
+		<label for="city">City</label>
+		
+		<select name="city" id="city">
+			<option value="1">Newyork</option>
+			<option value="2">California</option>
+			<option value="3">Los Angles</option>
+			<option value="4">Dallas</option>
+		</select>
+	</div>
+
+	<hr>
+
+	<div>
+		<fieldset>
+			<legend>your fav animal</legend>
+
+			<label for="che">Tiger</label>
+			<input type="checkbox" name="tiger" id="che">
+
+			<label for="tig">Cheetah</label>
+			<input type="checkbox" name="cheetah" id="tig">
+		</fieldset>
+	</div>
+
+	<hr>
+
+	<div>
+		<form action="register.php" method="post">
+			<label for="nam">Name:</label>
+			<input type="text" name="nam" id="nam">
+
+			<input type="submit" value="submit">
+			<input type="reset" value="reset">
+		</form>
+	</div>
+</body>
+</html>
