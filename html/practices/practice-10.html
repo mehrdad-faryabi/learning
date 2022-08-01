@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta property="og:type" content="website">
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<style>
+		input {
+			color: gray;
+		}
+
+		input:focus {
+			color: black;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<form action="login/api" method="post">
+			<div>
+				<!-- <label for="mail"></label> -->
+				<input type="email" id="mail" name="email" placeholder="Email" pattern="[a-z0-9]+@[a-z]+\.[a-z]{2-3}" autofocus>
+			</div>
+			<br>
+
+			<div>
+				<!-- <label for="pw"></label> -->
+				<input type="password" id="pw" name="password" placeholder="Password" maxlength="15" minlength="7">
+			</div>
+			<br>
+
+			<div>
+				<label for="rm">Remember me</label>
+				<input type="checkbox" id="rm" name="remember me" checked>
+			</div>
+			<br>
+
+			<div>
+				<input type="submit" value="login">
+			</div>
+		</form>
+
+		<hr>
+
+		<div>
+			<textarea cols="30" rows="2" placeholder="About yourself..." maxlength="80"></textarea>
+		</div>
+
+		<hr>
+
+		<div>
+			<label for="m">Male</label>
+			<input type="radio" id="m" name="gender">
+
+			<label for="f">Female</label>
+			<input type="radio" id="f" name="gender">
+		</div>
+		
+		<hr>
+
+		<div>
+			<label for="ar">Arms</label>
+			<input type="checkbox" id="ar" name="body">
+
+			<label for="le">Legs</label>
+			<input type="checkbox" id="le" name="body">
+		</div>
+
+		<hr>
+
+		<div>
+			<label for="ci">City:</label>
+
+			<select name="city" id="ci">
+				<option value="1">luton</option>
+				<option value="2">london</option>
+				<option value="3">white chapale</option>
+			</select>
+		</div>
+
+		<hr>
+
+		<div>
+			<input type="number" max="100" min="0">
+		</div>
+
+		<hr>
+
+		<div>
+			<fieldset>
+				<legend>Kfc or Wendys?</legend>
+
+				<label for="">Kfc</label>
+				<input type="checkbox">
+
+				<label for="">Wendys</label>
+				<input type="checkbox">
+			</fieldset>
+		</div>
+
+		<hr>
+
+		<div>
+			<form action="register.php" method="post">
+				<label for="na">Name:</label>
+				<input type="text" id="na" name="names" minlength="5" maxlength="10">
+
+				<input type="submit" value="Login">
+				<input type="reset" value="Reset">
+			</form>
+		</div>
+
+		<hr>
+
+		<div>
+			<form action="regester.php" method="POST">
+				<input type="file" accept=".png .jpg">
+				<br>
+
+				<br>
+				<input type="submit">
+			</form>
+		</div>
+
+		<hr>
+
+		<div>
+			<input type="color">
+		</div>
+
+		<br>
+
+		<div>
+			<input type="search" placeholder="Search..." maxlength="50">
+		</div>
+
+		<br>
+		
+		<div>
+			<input type="time">
+		</div>
+
+		<br>
+
+		<div>
+			<input type="date">
+		</div>
+
+		<br>
+
+		<div>
+			<input type="datetime-local">
+		</div>
+
+		<br>
+
+		<div>
+			<input type="range">
+		</div>
+
+		<br>
+
+		<div>
+			<input type="week">
+		</div>
+	</div>
+
+	<hr>
+
+	<div>
+		<ul>
+			<li>listed item</li>
+			<li>listed item</li>
+			<li>listed item</li>
+		</ul>
+		<hr>
+
+		<ol>
+			<li>listed item</li>
+			<li>listed item</li>
+			<li>lsited item</li>
+		</ol>
+		<hr>
+		
+		<dl>
+			<dt>hey</dt>
+			<dd>how was your day</dd>
+
+			<dt>had</dt>
+			<dd>fun today</dd>
+		</dl>
+	</div>
+</body>
+</html>

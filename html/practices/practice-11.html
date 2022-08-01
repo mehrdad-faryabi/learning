@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<style>
+		input {
+			color: gray;
+		}
+
+		input:focus {
+			color: black;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<div>
+			<input type="search" placeholder="Search" maxlength="50">
+		</div>
+
+		<hr>
+
+		<form action="login/api" method="post">
+			<div>
+				<input type="email" placeholder="Email" pattern="[a-z0-9]+@[a-z]+\.[a-z]{2,3}" autofocus>
+			</div>
+			<br>
+
+			<div>
+				<input type="password" placeholder="password" minlength="8" maxlength="18">
+			</div>
+			<br>
+
+			<div>
+				<label for="cb">Remember me</label>
+				<input type="checkbox" id="cb" name="checkbox">
+				<br>
+
+				<label for="ck">I Will Accept with EURA</label>
+				<input type="checkbox" id="ck" name="checkbox">
+			</div>
+			<br>
+
+			<div>
+				<input type="submit" value="Login">
+			</div>
+		</form>
+
+		<hr>
+
+		<div>
+			<input type="number" min="0" max="100" placeholder="Age">
+		</div>
+
+		<hr>
+
+		<div>
+			<textarea cols="30" rows="2" placeholder="About yourself..." maxlength="80"></textarea>
+		</div>
+
+		<hr>
+
+		<div>
+			<fieldset>
+				<legend>which one you hate</legend>
+
+				<label for="pg">Programing</label>
+				<input type="radio" id="pg" name="work">
+
+				<label for="sg">Security Guard</label>
+				<input type="radio" id="sg" name="work" checked>
+			</fieldset>
+		</div>
+
+		<hr>
+
+		<div>
+			<label for="cy">City:</label>
+
+			<select name="City" id="cy">
+				<option value="1">Paris</option>
+				<option value="2">France</option>
+				<option value="3">Quebec</option>
+			</select>
+		</div>
+
+		<hr>
+
+		<div>
+			<form action="register.php" method="POST">
+				<div>
+					<input type="text" placeholder="Name:">
+					<input type="submit" value="Submit">
+					<input type="reset" value="Reset">
+				</div>
+			</form>
+		</div>
+
+		<hr>
+
+		<div>
+			<input type="file" accept=".jpg .png">
+		</div>
+
+		<br>
+
+		<div>
+			<input type="date">
+		</div>
+
+		<br>
+		
+		<div>
+			<input type="time">
+		</div>
+
+		<br>
+
+		<div>
+			<input type="datetime-local">
+		</div>
+
+		<br>
+
+		<div>
+			<input type="color">
+		</div>
+
+		<br>
+
+		<div>
+			<input type="range">
+		</div>
+
+		<br>
+
+		<div>
+			<input type="week">
+		</div>
+	</div>
+
+	<hr>
+
+	<div>
+		<ul>
+			<li>listed item</li>
+			<li>listed item</li>
+			<li>listed item</li>
+		</ul>
+		<hr>
+
+		<ol>
+			<li>listed item</li>
+			<li>listed item</li>
+			<li>listed item</li>
+		</ol>
+		<hr>
+
+		<dl>
+			<dt>top text</dt>
+			<dd>bottom text</dd>
+
+			<dt>bottom text</dt>
+			<dd>top text</dd>
+		</dl>
+	</div>
+</body>
+</html>

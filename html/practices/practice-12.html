@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<style>
+		input {
+			color: gray;
+		}
+
+		input:focus {
+			color: black;
+		}
+	</style>
+</head>
+<body>
+	<div>
+		<div>
+			<input type="search" placeholder="Search..." maxlength="50">
+		</div>
+
+		<hr>
+
+		<div>
+			<form action="login/api">
+				<div>
+					<input type="email" placeholder="Email" pattern="[a-z0-9]+@[a-z]+\.[a-z]{2,3}" autofocus>
+				</div>
+				<br>
+
+				<div>
+					<input type="password" placeholder="Password" minlength="8" maxlength="15">
+				</div>
+				<br>
+
+				<div>
+					<label for="ck"><a href="url" style="color: darkviolet;">I Agree with term and rules</a></label>
+					<input type="checkbox" id="ck" name="checkbox">
+				<br>
+
+					<label for="cb">Remember me</label>
+					<input type="checkbox" id="cb" name="checkbox" checked>
+				</div>
+				<br>
+
+				<div>
+					<input type="submit">
+				</div>
+			</form>
+
+			<hr>
+
+			<div>
+				<label for="ci">City</label>
+
+				<select name="City" id="ci">
+					<option value="1">Austin</option>
+					<option value="2">Los angles</option>
+					<option value="3">Miami</option>
+				</select>
+			</div>
+
+			<hr>
+
+			<div>
+				<input type="file" accept=".png .jpg">
+			</div>
+
+			<hr>
+
+			<div>
+				<form action="register.php" method="post">
+					<input type="text" placeholder="Name:" maxlength="20">
+
+					<input type="submit" value="Submit">
+					<input type="reset" value="Reset">
+				</form>
+			</div>
+
+			<div>
+				<fieldset>
+					<legend>which on is better</legend>
+
+					<label for="fi">fish</label>
+					<input type="radio" id="fi" name="animal">
+
+					<label for="chi">chicken</label>
+					<input type="radio" id="chi" name="animal">
+				</fieldset>
+			</div>
+
+			<hr>
+
+			<div>
+				<input type="number" min="0" max="100" placeholder="Age">
+			</div>
+
+			<hr>
+
+			<div>
+				<input type="week">
+			</div>
+			<br>
+
+			<div>
+				<input type="date">
+			</div>
+			<br>
+
+			<div>
+				<input type="datetime-local">
+			</div>
+			<br>
+			
+			<div>
+				<input type="color">
+			</div>
+			<br>
+
+			<div>
+				<input type="range">
+			</div>
+			<br>
+
+			<div>
+				<input type="time">
+			</div>
+		</div>
+
+		<hr>
+
+		<div>
+			<ul>
+				<li>listed item</li>
+				<li>listed item</li>
+				<li>listed item</li>
+			</ul>
+
+			<ol>
+				<li>listed item</li>
+				<li>listed item</li>
+				<li>listed item</li>
+			</ol>
+
+			<dl>
+				<dt>css</dt>
+				<dd>i'm comin for you</dd>
+
+				<dt>html</dt>
+				<dd>is finished for now</dd>
+			</dl>
+		</div>
+	</div>
+</body>
+</html>
