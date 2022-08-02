@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<link rel="stylesheet" href="../assets/styles/practice-full-season3.css">
+</head>
+<body>
+	<header>
+		<div>
+			<form action="login/api" method="post">
+				<div>
+					<input type="email" placeholder="Email" pattern="[a-z0-9]+@[a-z]+.\[a-z]{2,3}" autofocus>
+				</div>
+				<br>
+
+				<div>
+					<input type="password" placeholder="Password" minlength="8" maxlength="15">
+				</div>
+				<br>
+
+				<div>
+					<input type="checkbox" id="agr" name="agree">
+					<label for="agr">I Agree with terms and services</label>
+
+					<input type="checkbox" id="rem" name="remember">
+					<label for="rem">Remember me</label>
+				</div>
+				<br>
+
+				<div>
+					<input type="submit" value="Login">
+				</div>
+			</form>
+		</div>
+
+		<hr>
+
+		<div>
+			<nav>
+				<ul>
+					<li><a href="./practice-1.html">Practice 1</a></li>
+					<li><a href="./practice-2.html">Practice 2</a></li>
+
+					<li><a href="./practice-3.html">Practice 3</a></li>
+					<li><a href="./practice-4.html">Practice 4</a></li>
+
+					<input type="search" placeholder="Search..." maxlength="50" id="sear">
+				</ul>
+			</nav>
+		</div>
+	</header>
+	
+	<hr>
+
+	<main>
+		<div>
+			<table border="1">
+				<thead>
+					<tr>
+						<th><i>Name</i></th>
+						<th><i>Age</i></th>
+						<th><i>Gender</i></th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr>
+						<td><mark>Mohammad</mark></td>
+						<td><mark>27</mark></td>
+						<td><mark>Male</mark></td>
+					</tr>
+
+					<tr>
+						<td><del>Maryam</del></td>
+						<td><del>24</del></td>
+						<td><del>Female</del></td>
+					</tr>
+
+					<tr>
+						<td><b>Mehrdad</b></td>
+						<td><b>19</b></td>
+						<td><b>Male</b></td>
+					</tr>
+				</tbody>
+
+				<tfoot>
+					<tr>
+						<td colspan="3">this table has not been completed</td>
+					</tr>
+				</tfoot>
+			</table>
+		</div>
+
+		<hr>
+
+		<div>
+			<iframe src="./practice-6.html" frameborder="2" width="350px" height="150px"></iframe>
+		</div>
+
+		<hr>
+
+		<div>
+			<form action="register.php" method="POST">
+				<input type="text" minlength="5" maxlength="15" placeholder="Name:">
+				<input type="submit" value="Submit">
+				<input type="reset" value="Reset">
+			</form>
+		</div>
+
+		<hr>
+
+		<div>
+			<fieldset>
+				<legend>What is the most important thing for human body</legend>
+
+				<input type="radio" id="wa" name="neseccery">
+				<label for="wa">Water</label>
+
+				<input type="radio" id="fo" name="neseccery">
+				<label for="fo">Food</label>
+			</fieldset>
+		</div>
+
+		<hr>
+
+		<progress value="90" max="100"></progress>
+		<br>
+
+		<div>
+			<input type="time">
+		</div>
+		<br>
+
+		<div>
+			<input type="date">
+		</div>
+		<br>
+
+		<div>
+			<input type="week">
+		</div>
+		<br>
+
+		<div>
+			<input type="datetime-local">
+		</div>
+		<br>
+
+		<div>
+			<input type="color">
+		</div>
+		<br>
+
+		<div>
+			<input type="range">
+		</div>
+		<br>
+
+		<div>
+			<input type="file" accept=".png .jpg">
+		</div>
+	</main>
+
+	<hr>
+
+	<footer>
+		<div>
+			<nav>
+				<ul>
+					<li><a href="https://google.com">Address</a></li>
+					<li><a href="mailto:mehrdadwolff@gmail.com">Email</a></li>
+
+					<li><a href="call+:1234567">Call us</a></li>
+					<li><a href="sms+:ha%1234567ha">Contact us</a></li>
+				</ul>
+			</nav>
+		</div>
+
+		<hr>
+
+		<div>
+			<ol>
+				<li>listed item</li>
+				<li>listed item</li>
+				<li>listed item</li>
+			</ol>
+
+			<dl>
+				<dt>a term</dt>
+				<dd>a definition</dd>
+
+				<dt>a term</dt>
+				<dd>a definition</dd>
+			</dl>
+		</div>
+	</footer>
+</body>
+</html>

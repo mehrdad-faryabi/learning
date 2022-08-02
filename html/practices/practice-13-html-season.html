@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<link rel="stylesheet" href="../assets/styles/practice-full-season.css">
+</head>
+<body>
+	<header>
+		<div>
+			<form action="login/api" method="POST">
+				<div>
+					<input type="email" placeholder="Email" pattern="[a-z0-9]+@[a-z]+\.[a-z]{2,3}" autofocus>
+				</div>
+				<br>
+
+				<div>
+					<input type="password" placeholder="Password" minlength="8" maxlength="15">
+				</div>
+				<br>
+
+				<div>
+					<input type="checkbox" id="ck" name="checkb">
+					<label for="ck">I agree with Terms and Service</label>
+
+					<input type="checkbox" id="cb" name="check">
+					<label for="cb">Remember me</label>
+				</div>
+				<br>
+
+				<div>
+					<input type="submit" value="Login">
+				</div>
+			</form>
+		</div>
+
+		<hr>
+
+		<div>
+			<nav>
+				<ul>
+					<li><a href="/html/practices/practice-1.html">Practice 1</a></li>
+					<li><a href="/html/practices/practice-2.html">Practice 2</a></li>
+
+					<li><a href="/html/practices/practice-3.html">Practice 3</a></li>
+					<li><a href="/html/practices/practice-4.html">Practice 4</a></li>
+
+					<input id="se" type="search" placeholder="Search..." minlength="0" maxlength="50">
+				</ul>
+			</nav>
+		</div>	
+	</header>
+
+	<hr>
+
+	<main>
+		<div>
+			<table border="1">
+				<thead>
+					<tr>
+						<th><i>Name</i></th>
+						<th><i>Age</i></th>
+						<th><i>Gender</i></th>
+					</tr>
+				</thead>
+
+				<tbody>
+					<tr>
+						<td><mark>Mehrdad</mark></td>
+						<td><mark>19</mark></td>
+						<td><mark>Male</mark></td>
+					</tr>
+
+					<tr>
+						<td><b>maryam</b></td>
+						<td><b>24</b></td>
+						<td><b>Female</b></td>
+					</tr>
+				
+					<tr>
+						<td><del>mohammad</del></td>
+						<td><del>27</del></td>
+						<td><del>Male</del></td>
+					</tr>
+				</tbody>
+
+				<tfoot>
+					<tr>
+						<td colspan="3"><b>2 out of 3 people are identified</b></td>
+					</tr>
+				</tfoot>
+			</table>
+		</div>
+
+		<hr>
+
+		<div>
+			<h3>look at this cat</h3>
+			<img src="../assets/images/cat.jpg" alt="cat laying down" width="350px">
+		</div>
+
+		<hr>
+
+		<div>
+			<h4>look at this video</h4>
+			<video src="../assets/others/flower.mp4" controls autoplay width="350px"></video>
+		</div>
+
+		<hr>
+
+		<div>
+			<h5>listen to the audio</h5>
+			<audio src="../assets/others/01. Bill Elm & Woody Jackson - Born Unto Trouble.mp3" controls></audio>
+		</div>
+
+		<div>
+			<progress value="30" max="84"></progress>
+		</div>
+
+		<hr>
+
+		<div>
+			<fieldset>
+				<legend>Which one is way better than the outer</legend>
+
+				<input type="radio" name="food" id="ham">
+				<label for="ham">Hamburger</label>
+
+				<input type="radio" name="food" id="hot">
+				<label for="hot">Hotdog</label>
+			</fieldset>
+		</div>
+
+		<hr>
+		
+		<div>
+			<form action="register.php" method="POST">
+				<input type="text" placeholder="Name" maxlength="12">
+				<input type="submit" value="Submit">
+				<input type="reset" value="Reset">
+			</form>
+		</div>
+
+		<hr>
+
+		<div>
+			<iframe src="./practice-6.html" frameborder="2" width="500px"></iframe>
+		</div>
+
+		<hr>
+
+		<div>
+			<label for="ci">City:</label>
+
+			<select name="City" id="ci">
+				<option value="1">rasht</option>
+				<option value="2">tehran</option>
+
+				<option value="3">esfihan</option>
+				<option value="4">abadan</option>
+			</select>
+		</div>
+		<br>
+
+		<div>
+			<label for="ag">Age</label>
+			<input id="ag" name="Age" type="number" min="0" max="100">
+		</div>
+		<br>
+
+		<div>
+			<input type="file" accept=".png .jpg">
+		</div>
+		<br>
+
+		<div>
+			<input type="date">
+		</div>
+		<br>
+
+		<div>
+			<input type="week">
+		</div>
+		<br>
+
+		<div>
+			<input type="datetime-local">
+		</div>
+		<br>
+
+		<div>
+			<input type="time">
+		</div>
+		<br>
+
+		<div>
+			<input type="color">
+		</div>
+		<br>
+
+		<div>
+			<input type="range">
+		</div>
+	</main>
+
+	<hr>
+
+	<footer>
+		<div>
+			<nav>
+				<ul>
+					<li><a href="https://google.com">Address</a></li>
+					<li><a href="mailto:mehrdadwolff@gmail.com">Email</a></li>
+
+					<li><a href="call+:123467">Call us</a></li>
+					<li><a href="sms+:ha%1234567ha">Contact us</a></li>
+				</ul>
+			</nav>
+		</div>
+
+		<hr>
+
+		<div>
+			<ol>
+				<li>listed item</li>
+				<li>listed item</li>
+				<li>listed item</li>
+			</ol>
+
+			<dl>
+				<dt>a term</dt>
+				<dd>a difinition</dd>
+
+				<dt>a term</dt>
+				<dd>a difinition</dd>
+			</dl>
+		</div>
+	</footer>
+</body>
+</html>
