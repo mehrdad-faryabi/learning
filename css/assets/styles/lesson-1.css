@@ -1,0 +1,31 @@
+body {
+	/* background-image: url('../images/texture.jpg'); */
+	/* background-repeat: repeat; */
+}
+
+.text-red {
+	color: red;
+	font-size: 19px;
+	/* font-weight: 900; */
+	font-weight: bold;
+	font-family: iranSans, tahoma;
+}
+
+#section-1 {
+	background-color: #c4c4c4 !important;
+	background-color: rgb(172, 122, 122) !important;
+	background-color: rgba(43, 58, 124, 0.5) !important;
+}
+
+#section-1-parent {
+	position: relative;
+}
+
+#section-1 {
+	width: 130px;
+	height: 100px;
+	background-color: purple;
+	position: absolute;
+	top: 100px;
+	left: 50px;
+}
