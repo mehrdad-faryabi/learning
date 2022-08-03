@@ -1,0 +1,28 @@
+body {
+	background-image: url(../images/R.jpg);
+}
+
+#fontc {
+	color: rgba(81, 81, 95, 0.808);
+	font-family: iranSans;
+}
+
+input {
+	color: rgba(161, 161, 187, 0.808);
+	background-color: rgba(81, 81, 95, 0.808);
+	border-radius: 15px;
+	transition: 330ms;
+	font-family: iranSans;
+}
+
+input:hover {
+	color: rgba(81, 81, 95, 0.808);
+	background-color: rgba(161, 161, 187, 0.808);
+	transition: 330ms;
+}
+
+#ff {
+	width: 150px;
+	height: 150px;
+	background-color: aqua;
+}

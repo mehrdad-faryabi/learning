@@ -1,0 +1,36 @@
+body {
+	background-image: url(../images/R.jpg);
+	background-repeat: repeat !important;
+}
+
+.para {
+	font-family: iranSans, tahoma;
+	color: rgba(81, 81, 95, 0.808);
+	/* font-size: 20px; */
+	font-weight: bolder;
+}
+
+#se {
+	height: 150px;
+	width: 150px;
+	background-color: aqua;
+	top: 50px;
+}
+
+#sec {
+	position: absolute;
+}
+
+input {
+	border-radius: 15px;
+	color: rgba(161, 161, 187, 0.808);
+	background-color: rgba(81, 81, 95, 0.808);
+	transition: 330ms;
+}
+
+input:hover {
+	color: rgba(81, 81, 95, 0.808);
+	background-color: rgba(161, 161, 187, 0.808);
+	transition: 330ms;
+}
+
