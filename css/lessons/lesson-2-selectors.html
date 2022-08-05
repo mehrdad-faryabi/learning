@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lesson 2 - Selectors</title>
+
+	<style>
+		/* Basic */
+
+		/* important */
+		* {
+			/* All elements */
+			color: inherit;
+		}
+
+		/* important */
+		div {
+			/* All div tags */
+			color: inherit;
+		}
+
+		/* important */
+		.classname {
+			/* All elements with class */
+			color: inherit;
+		}
+
+		/* important */
+		#idname {
+			/* Element with ID */
+			color: inherit;
+		}
+
+		/* important */
+		div, p {
+			/* All divs and paragraphs */
+			color: inherit;
+		}
+
+		/* important */
+		#idname * {
+			/* All elements inside #idname */
+			color: inherit;
+		}
+
+		/* Combinators */
+
+		/* important */
+		div.classname {
+			/* Div with certain classname */
+			color: inherit;
+		}
+
+		/* important */
+		div#idname {
+			/* Div with certain ID */
+			color: inherit;
+		}
+
+		/* important */
+		div p {
+			/* Paragraphs inside divs */
+			color: inherit;
+		}
+
+		/* important */
+		div > p {
+			/* All p tags one level deep in div */
+			color: inherit;
+		}
+
+		/* important */
+		div + p {
+			/* P tags immediately after div */
+			color: inherit;
+		}
+
+		/* important */
+		div ~ p {
+			/* P tags preceded by div */
+			color: inherit;
+		}
+
+		/* Attribute selectors */
+
+		/* important */
+		a[target] {
+			/* With a target attribute */
+			color: inherit;
+		}
+
+		/* important */
+		a[target="_blank"] {
+			/* Open in new tab */
+			color: inherit;
+		}
+
+		a[href^="/index"] {
+			/* Starts with /index */
+			color: inherit;
+		}
+
+		[class|="chair"] {
+			/* Starts with chair */
+			color: inherit;
+		}
+
+		[class*="chair"] {
+			/* containing chair */
+			color: inherit;
+		}
+
+		[class~="chair"] {
+			/* Contains the word chair */
+			color: inherit;
+		}
+
+		a[href$=".doc"] {
+			/* Ends with .doc */
+			color: inherit;
+		}
+
+		/* User action pseudo classes */
+		
+		a:link {
+			/* Link in normal state */
+			color: inherit;
+		}
+		
+		/* important */
+		a:active {
+			/* Link in clicked state */
+			color: inherit;
+		}
+		
+		/* important */
+		a:hover {
+			/* Link with mouse over it */
+			color: inherit;
+		}
+		
+		/* important */
+		a:visited {
+			/* Visited link */
+			color: inherit;
+		}
+
+		/* Pseudo classes */
+
+		/* important */
+		p::before {
+			/* Add content before p */
+			content: "this ";
+		}
+
+		/* important */
+		p::after {
+			/* Add content after p */
+			content: " paragraph";
+		}
+
+		p::first-letter {
+			/* First letter in p */
+			color: inherit;
+		}
+
+		p::first-line {
+			/* First line in p */
+			color: inherit;
+		}
+
+		::selection {
+			/* Selected by user */
+			color: inherit;
+		}
+
+		/* important */
+		::placeholder {
+			/* Placeholder attribute */
+			color: inherit;
+		}
+
+		:root {
+			/* Documents root element */
+			color: inherit;
+		}
+
+		:target {
+			/* Highlight active anchor */
+			color: inherit;
+		}
+
+		/* important */
+		div:empty {
+			/* Element with no children */
+			width: 300px;
+			height: 300px;
+			background-color: red;
+		}
+
+		p:lang(en) {
+			/* P with en language attribute */
+			color: inherit;
+		}
+
+		/* important */
+		:not(span) {
+			/* Element that's not a span */
+			color: inherit;
+		}
+
+		/* Input pseudo classes */
+		
+		/* important */
+		input:checked {
+			/* Checked inputs */
+			color: inherit;
+		}
+
+		/* important */
+		input:disabled {
+			/* Disabled inputs */
+			color: inherit;
+		}
+
+		/* important */
+		input:enabled {
+			/* Enabled inputs */
+			color: inherit;
+		}
+
+		/* important */
+		input:focus {
+			/* Input has focus */
+			color: inherit;
+		}
+
+		input:in-range {
+			/* Value in range */
+			color: inherit;
+		}
+
+		input:out-of-range {
+			/* Input value out of range */
+			color: inherit;
+		}
+
+		input:valid {
+			/* Input with valid value */
+			color: inherit;
+		}
+
+		input:invalid {
+			/* Input with invalid value */
+			color: inherit;
+		}
+
+		input:optional {
+			/* No required attribute */
+			color: inherit;
+		}
+
+		input:required {
+			/* Input with required attribute */
+			color: inherit;
+		}
+
+		input:read-only {
+			/* With readonly attribute */
+			color: inherit;
+		}
+
+		input:read-write {
+			/* No readonly attribute */
+			color: inherit;
+		}
+
+		input:indeterminate {
+			/* With indeterminate state */
+			color: inherit;
+		}
+
+		/* Structural pseudo classes */
+
+		/* important */
+		p:first-child {
+			/* First child */
+			color: inherit;
+		}
+
+		/* important */
+		p:last-child {
+			/* Last child */
+			color: inherit;
+		}
+
+		p:first-of-type {
+			/* First of some type */
+			color: inherit;
+		}
+
+		p:last-of-type {
+			/* Last of some type */
+			color: inherit;
+		}
+
+		/* important */
+		p:nth-child(2) {
+			/* Second child of its parent */
+			color: inherit;
+		}
+
+		p:nth-child(3n42) {
+			/* Nth-child (an + b) formula */
+			color: inherit;
+		}
+
+		p:nth-last-child(2) {
+			/* Second child from behind */
+			color: inherit;
+		}
+
+		p:nth-of-type(2) {
+			/* Second p of its parent */
+			color: inherit;
+		}
+
+		p:nth-last-of-type(2) {
+			/* ...from behind */
+			color: inherit;
+		}
+
+		p:only-of-type {
+			/* Unique of its parent */
+			color: inherit;
+		}
+
+		p:only-child {
+			/* Only child of its parent */
+			color: inherit;
+		}
+	</style>
+</head>
+
+<body>
+
+	<div>
+		<span>
+			<p></p>
+		</span>
+	</div>
+
+	<p lang="en">is</p>
+
+	<a href="index.doc" target="_blank">test</a>
+
+	<div class="chair-l sss">salam</div>
+
+	<div class="lll chair sss">salam</div>
+
+	<input type="text" placeholder="this is a placeholder">
+</body>
+
+</html>
