@@ -1,0 +1,23 @@
+body {
+	background-image: url(../images/R.jpg);
+	background-repeat: repeat;
+}
+
+#fonte {
+	color: rgba(81, 81, 95, 0.808);
+	font-family: iranSans;
+}
+
+input {
+	color: rgba(167, 167, 187, 0.808);
+	background-color: rgba(81, 81, 95, 0.808);
+	font-family: iranSans;
+	border-radius: 15px;
+	transition: 330ms;
+}
+
+input:hover {
+	color: rgba(81, 81, 95, 0.808);
+	background-color: rgba(167, 167, 187, 0.808);
+	transition: 330ms;
+}

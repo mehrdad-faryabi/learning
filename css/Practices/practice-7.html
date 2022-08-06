@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+
+	<link rel="stylesheet" href="../assets/styles/practice-22.css">
+</head>
+<body>
+	<div id="fonte">
+		<form action="login/api" method="post">
+			<div>
+				<input type="search" placeholder="Search..." maxlength="50">
+			</div>
+			<br>
+
+			<div>
+				<input type="email" placeholder="Email:" pattern="[a-z0-9]+@[a-z]+.\[a-z]{2,3}" autofocus>
+			</div>
+			<br>
+
+			<div>
+				<input type="password" placeholder="Password" minlength="8" maxlength="15">
+			</div>
+			<br>
+
+			<div>
+				<input type="checkbox" id="agr" name="agree">
+				<label for="agr">I agree with terms and services</label>
+
+				<input type="checkbox" id="re" name="remember" checked>
+				<label for="re">Remember me</label>
+			</div>
+			<br>
+
+			<div>
+				<input type="submit" value="login">
+			</div>
+			<br>
+
+			<div>
+				<input type="text" placeholder="Name:" minlength="8" maxlength="15">
+				<input type="submit" value="Login">
+				<input type="reset" value="Reset">
+			</div>
+
+			<hr>
+
+			<div>
+				<input type="number" placeholder="Age" min="0" max="100">
+			</div>
+			<br>
+
+			<div>
+				<textarea placeholder="About yourself:" cols="30" rows="2"></textarea>
+			</div>
+			<br>
+
+			<div>
+				<fieldset>
+					<legend>HTML or Css</legend>
+
+					<input type="radio" id="ht" name="programming">
+					<label for="ht">HTML</label>
+
+					<input type="radio" id="cs" name="programming">
+					<label for="cs">Css</label>
+				</fieldset>
+			</div>
+			<br>
+
+			<div>
+				<label for="ci">City:</label>
+				<select name="city" id="ci">
+
+					<option value="1">new york</option>
+					<option value="2">atlanta</option>
+					
+					<option value="3">california</option>
+					<option value="4">texas</option>
+				</select>
+			</div>
+			<br>
+
+			<div>
+				<input type="file">
+			</div>
+			<br>
+
+			<div>
+				<input type="week">
+			</div>
+			<br>
+
+			<div>
+				<input type="date">
+			</div>
+			<br>
+
+			<div>
+				<input type="time">
+			</div>
+			<br>
+
+			<div>
+				<input type="datetime-local">
+			</div>
+			<br>
+
+			<div>
+				<input type="color">
+			</div>
+			<br>
+
+			<div>
+				<input type="range">
+			</div>
+		</form>
+	</div>
+</body>
+</html>
