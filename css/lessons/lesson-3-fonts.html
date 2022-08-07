@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Lesson 3 - Fonts</title>
+
+		<style>
+			@font-face {
+				font-family: "IRANSansX";
+				src: url("../assets/fonts/IranSansX/fonts/woff/IRANSansX-Regular.woff");
+				font-weight: 400;
+			}
+
+			@font-face {
+				font-family: "Comfortaa";
+				src: url("../assets/fonts/Comfortaa/Comfortaa-Regular.eot");
+				src: url("../assets/fonts/Comfortaa/Comfortaa-Regular.woff") format("woff");
+				src: url("../assets/fonts/Comfortaa/Comfortaa-Regular.woff2") format("woff2");
+				font-weight: 400;
+			}
+
+			body {
+				direction: rtl;
+				font-family: "Comfortaa", "IRANSansX";
+				font-size: 18px;
+				letter-spacing: 0px;
+				line-height: 30px;
+				font-weight: normal;
+			}
+
+			#p1 {
+				font-weight: bold;
+			}
+
+			#p2 {
+				font-style: italic;
+			}
+
+			#p3 {
+				font-style: oblique;
+			}
+
+			#p4 {
+				text-decoration: underline;
+			}
+		</style>
+	</head>
+
+	<body>
+		<p style="text-align: justify;">
+			ای استخدام می‌کوشد با انتشار آگهی های شغلی، فراخوانها و اخبار
+			استخدام سراسر کشور در کنار ارائه به روزترین امکانات، متدها و ابزار
+			های جذب و استخدام، محیطی حرفه ای و کارآمد برای جامعه کارجویان و
+			کارفرمایان کشور فراهم سازد.
+		</p>
+
+		<p>
+			در بخش تماس با ما راههای ارتباطی و تماس با سایت عنوان گردیده است.
+			شماره های پیامکی مورد تایید صرفا ۱۰۰۰۰۶۱۸ و ۲۰۰۰۰۶۱۸ می‌باشند.
+		</p>
+
+		<p>کلیه حقوق این سامانه برای ای استخدام محفوظ است.</p>
+
+		<hr />
+
+		<p>md.salehzadeh@gmail.com</p>
+		<p>123456789</p>
+		<p id="p1">Bold</p>
+		<p id="p2">Italic</p>
+		<p id="p3">Oblique</p>
+		<p id="p4">Underlined</p>
+
+		<hr>
+
+		<div style="text-transform: uppercase;">uppercase</div>
+		<div style="text-transform: lowercase;">LOWERCASE</div>
+		<div style="text-transform: capitalize;">capitalize</div>
+	</body>
+</html>

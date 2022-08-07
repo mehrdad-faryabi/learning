@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lesson 5 - Floats</title>
+
+	<style>
+		*, *::before, *::after {
+			box-sizing: border-box;
+		}
+
+		body {
+			direction: rtl;
+		}
+		
+		.box {
+			width: 400px;
+			height: 300px;
+			color: #fff;
+			border: 1px solid #ccc;
+			border-radius: 12px;
+			text-align: center;
+			margin-bottom: 15px;
+			padding-top: 140px;
+		}
+		
+		#box1 {
+			background-color: purple;
+			float: left;
+		}
+		
+		#box2 {
+			background-color: yellowgreen;
+			float: left;
+		}
+		
+		#box3 {
+			background-color: #7b1c2d;
+			float: right;
+		}
+	</style>
+</head>
+
+<body>
+	<div class="row">
+		<div class="box" id="box1">
+			Box 1
+		</div>
+
+		<div class="box" id="box2">
+			Box 2
+		</div>
+		
+		<div class="box" id="box3">
+			Box 3
+		</div>
+
+		<div style="clear: both;"></div>
+	</div>
+</body>
+
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Lesson 4 - Backgrounds</title>
+
+	<style>
+		*, *::before, *::after {
+			box-sizing: border-box;
+		}
+
+		#bg1, #bg2, #bg3, #bg4 {
+			width: 400px;
+			max-width: 100%;
+			height: 200px;
+			border-radius: 12px;
+			border: 1px solid #ccc;
+			margin: 0 auto;
+			margin-bottom: 15px;
+			text-align: center;
+			padding-top: 90px;
+			color: #fff;
+		}
+
+		#bg1 {
+			background-color: purple;
+		}
+
+		#bg2 {
+			background-image: url("../assets/images/R.jpg");
+			color: #fff;
+		}
+
+		#bg3 {
+			background-image: url("../assets/images/R.jpg");
+			background-size: 100% 100%;
+			color: #fff;
+		}
+
+		#bg4 {
+			background-image: url("../assets/images/R.jpg");
+			background-size: 20% 20%;
+			color: #fff;
+			background-repeat: repeat; /* no-repeat */
+		}
+
+		#div1 {
+			display: inline-block;
+			background: yellowgreen;
+			min-width: 100px;
+			max-width: 300px;
+			max-height: 100px;
+			overflow: auto;
+		}
+	</style>
+</head>
+
+<body>
+	<div id="bg1">BG 1</div>
+
+	<div id="bg2">BG 2</div>
+
+	<div id="bg3">BG 3</div>
+
+	<div id="bg4">BG 4</div>
+
+	<div id="div1">test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test test</div>
+</body>
+
+</html>
