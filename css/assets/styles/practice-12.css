@@ -1,0 +1,94 @@
+* {
+	color: inherit;
+}
+
+.classp {
+	color: inherit;
+}
+
+#idp {
+	color: inherit;
+}
+
+div {
+	color: inherit;
+}
+
+div, p {
+	color: inherit;
+}
+
+div + p {
+	color: inherit;
+}
+
+div ~ p {
+	color: inherit;
+}
+
+div > p {
+	color: inherit;
+}
+
+div p {
+	color: inherit;
+}
+
+a[target] {
+	color: inherit;
+}
+
+a:active {
+	color: inherit;
+}
+
+a:visited {
+	color: inherit;
+}
+
+a:hover {
+	color: inherit;
+}
+
+::placeholder {
+	color: inherit;
+}
+
+div:empty {
+	background-color: blue;
+	width: 100px;
+	height: 100px;
+}
+
+input:checked {
+	color: inherit;
+}
+
+input:focus {
+	color: inherit;
+}
+
+input:enabled {
+	color: inherit;
+}
+
+input:disabled {
+	color: inherit;
+}
+
+p::before {
+	content: "well ";
+}
+
+p::after {
+	content: " good job";
+}
+
+p:first-child {
+	color: inherit;
+}
+
+p:last-child {
+	color: inherit;
+}
+

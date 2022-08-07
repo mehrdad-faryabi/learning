@@ -1,0 +1,97 @@
+* {
+	color: inherit;
+}
+
+.classa {
+	color: inherit;
+}
+
+#ida {
+	color: inherit;
+}
+
+#ida * {
+	color: inherit;
+}
+
+div {
+	color: inherit;
+}
+
+div p {
+	color: inherit;
+}
+
+div * {
+	color: inherit;
+}
+
+div > p {
+	color: inherit;
+}
+
+div, p {
+	color: inherit;
+}
+
+div + p {
+	color: inherit;
+}
+
+div ~ p {
+	color: inherit;
+}
+
+a[target] {
+	color: inherit;
+}
+
+a:active {
+	color: inherit;
+}
+
+a:hover {
+	color: inherit;
+}
+
+a:visited {
+	color: inherit;
+}
+
+::placeholder {
+	color: inherit;
+}
+
+input:checked {
+	color: inherit;
+}
+
+input:disabled{
+	color: inherit;
+}
+
+input:enabled {
+	color: inherit;
+}
+
+div:empty {
+	background-color: aqua;
+	width: 200px;
+	height: 200px;
+}
+
+p::before{
+	content: "hey ";
+}
+
+p::after {
+	content: " how are ya";
+}
+
+p:first-child {
+	color: inherit;
+}
+
+p:last-child {
+	color: inherit;
+}

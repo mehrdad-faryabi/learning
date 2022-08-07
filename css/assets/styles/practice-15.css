@@ -1,0 +1,105 @@
+* {
+	color: inherit;
+}
+
+div {
+	color: inherit;
+}
+
+#idq {
+	color: inherit;
+}
+
+.classq {
+	color: inherit;
+}
+
+div p {
+	color: inherit;
+}
+
+div, p {
+	color: inherit;
+}
+
+div + p {
+	color: inherit;
+}
+
+div > p {
+	color: inherit;
+}
+
+div ~ p {
+	color: inherit;
+}
+
+#idq * {
+	color: inherit;
+}
+
+a[target] {
+	color: inherit;
+}
+
+a:active {
+	color: inherit;
+}
+
+a:hover {
+	color: inherit;
+}
+
+a:visited {
+	color: inherit;
+}
+
+:not(span) {
+	color: inherit;
+}
+
+::placeholder {
+	color: inherit;
+}
+
+input:focus {
+	color: inherit;
+}
+
+input:checked {
+	color: inherit;
+}
+
+input:disabled {
+	color: inherit;
+}
+
+input:enabled {
+	color: inherit;
+}
+
+p::before {
+	content: "hey ";
+}
+
+p::after {
+	content: " ummm?";
+}
+
+p:first-child {
+	color: inherit;
+}
+
+p:last-child {
+	color: inherit;
+}
+
+p:nth-child(2) {
+	color: inherit;
+}
+
+div:empty {
+	background-color: aquamarine;
+	width: 100px;
+	height: 100px;
+}
