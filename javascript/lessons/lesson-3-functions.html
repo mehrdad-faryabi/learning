@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>lesson 3 - Functions</title>
+
+	<script>
+		function doubleIt(number) {
+			let result = number * 2;
+
+			return result;
+		}
+
+		let result1 = doubleIt(5);
+
+		let result2 = doubleIt(3);
+
+		console.log(result1);
+
+		console.log(result2);
+
+		// -------------------------------------------
+
+		// Named function
+		function rocketToMars() {
+			return 'BOOM!';
+		}
+
+		rocketToMars();
+
+		// Anonymous function
+		const rocketToMars = function() {
+			return 'BOOM!';
+		}
+
+		rocketToMars();
+	</script>
+</head>
+
+<body>
+	test
+</body>
+
+</html>

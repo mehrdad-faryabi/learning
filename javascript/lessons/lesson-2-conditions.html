@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>lesson 2 - Conditions</title>
+
+	<script>
+		let age = 17;
+
+		if (age > 18) {
+			alert("you are above 18 years old, redirecting to pornhub ...");
+
+			window.open('https://pornhub.com');
+		} else if (age == 18) {
+			alert("your age is barley legal, look for somthing else");
+
+			window.open('https://google.com');
+		} else {
+			alert("you are under age, 403 Forbidden");
+
+			window.open("http://peyvandha.ir");
+		}
+
+		// ----------------------------------------------------
+
+		let score = 8;
+
+		// let isPassed;
+
+		// if (score >= 10) {
+		// 	isPassed = true;
+		// } else {
+		// 	isPassed = false;
+		// }
+
+		let isPassed = (score >= 10) ? true : false;
+
+		// ----------------------------------------------------
+
+		let longHair = false;
+		let hasDick = true;
+
+		let gender;
+
+		if (longHair || !hasDick) {
+			gender = "male";
+		} else {
+			gender = "female";
+		}
+	</script>
+</head>
+
+<body>
+	test
+</body>
+
+</html>
