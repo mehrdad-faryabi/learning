@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>lesson 5 - Loops</title>
+
+	<script>
+		const fruits = ["apple", "orange", "banana"];
+
+		let i = 0;
+
+		while (i < fruits.length) {
+			console.log(i, fruits[i]);
+
+			i++;
+		}
+
+		console.log('---------------------------------------');
+
+		let j = 0;
+		while (true) {
+			// if (j == 2) {
+			// 	continue;
+			// }
+
+			if (j == 5) {
+				break;
+			}
+
+			console.log('test');
+
+			j++;
+		}
+
+		console.log('---------------------------------------');
+
+		const fruits2 = ["apple", "orange", "banana"];
+
+		for (let i = 0; i < fruits2.length; i++) {
+			console.log(i, fruits2[i]);
+		}
+
+		console.log('---------------------------------------');
+
+		const fruits3 = ["apple", "orange", "banana"];
+
+		for (let index in fruits3) {
+			console.log(index, fruits3[index]);
+		}
+
+		console.log('---------------------------------------');
+
+		const fruits4 = ["apple", "orange", "banana"];
+
+		for (let fruit of fruits4) {
+			console.log(fruit);
+		}
+	</script>
+</head>
+
+<body>
+	test
+</body>
+
+</html>
