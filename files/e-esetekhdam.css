@@ -1,0 +1,106 @@
+* {
+	font-family: "IRANSans",Tahoma,"Helvetica Neue",Arial,sans-serif;
+	font-size: small;
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #603695;
+	direction: rtl;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+header {
+	margin-top: 30px;
+}
+
+*, *::before, *::after {
+	box-sizing: border-box;
+}
+
+#div1 {
+	float: right;
+}
+
+#div2 {
+	float: left;
+	margin-left: 50px;
+}
+
+#image1 {
+	height: 30px;
+	max-width: none;
+	vertical-align: middle;
+	display: inline-block;
+	margin-right: 40px;
+}
+
+#input1 {
+	background-color: #482870;
+	color: #cebbe6;
+	border: none;
+	padding: 6px;
+	box-sizing: border-box;
+	vertical-align: middle;
+	border-radius: 4px;
+	margin-right: 50px;
+	outline: none;
+	box-shadow: none;
+}
+
+#input1::placeholder {
+	color: #cebbe6;
+	border: none;
+	padding: 1px;
+}
+
+#alin {
+	text-decoration: none;
+	background-color: #804dbf;
+	padding: 4px 12px;
+	border-radius: 5px;
+	color: rgb(255, 255, 255);
+	border: #804dbf 2px solid;
+	margin-left: 8px;
+}
+
+#alin:hover {
+	background-color: #603695;
+}
+
+#input1:focus {
+	background-color: #fff;
+	border: none;
+	color: #000;
+}
+
+#alin2 {
+	background-color: #512d7e;
+	color: #fff;
+	border: 2px solid #7c5aa8;
+	border-radius: 4px;
+	padding: 4px 12px;
+	text-decoration: none;
+}
+
+#alin2:hover {
+	background-color: #482870;
+}
+
+nav ul li {
+	display: inline-block;
+	padding: 25px;
+}
+
+.a1 {
+	color: #fff;
+}
+
+.a1:hover {
+	color: #603695;
+	background-color: #fff;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	padding: 8px;
+}
