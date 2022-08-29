@@ -13,48 +13,50 @@
 </head>
 <body>
 	<header>
-		<div id="div1">
-			<a href="#" style="text-decoration: none;">
-				<img id="image1" src="../files/logo2.svg" alt="e estekhdam">
-			</a>
+		<div id="div-img-icon-input">
+			<img id="e-estekhdam-image" src="../files/logo2.svg" href="#" alt="e-estekhdam">
 
-			<label id="input1" for="input1" onclick="myFunction(input1)">
+			<div id="search-input-icon">
+				<i class="fa-solid fa-magnifying-glass"></i>
 
-				<i name="inp" class="fa-solid fa-magnifying-glass"></i>
-				<input id="input1" name="inp" type="search" placeholder="جستجوی آگهی استخدام">
-
-			</label>
+				<input id="search-input" type="search" placeholder="جستوی آگهی استخدام" onfocus="activateInput()" onblur="deactivateInput()">
+			</div>
 		</div>
 
-		<div id="div2">
-			<a id="alin" href="#">درج آگهی استخدام</a>
-			<a id="alin2" href="#">ورود / ثبت نام</a>
-		</div>
+		<script>
+			function activateInput() {
+				document.getElementById('search-input-icon').classList.add('active');
+			}
 
+			function deactivateInput() {
+				document.getElementById('search-input-icon').classList.remove('active');
+			}
+		</script>
+
+		<div id="div-hrefs">
+			<a href="#" id="a-hrefs">درج آگهی استخدام</a>
+
+			<a href="#" id="hrefs">ورود / ثبت نام</a>
+		</div>
 		<div style="clear: both;"></div>
+		
+		<div id="nav-a">
+			<a href="#" class="nav-a-hrefs"><i class="fa-solid fa-bars"></i> منو سایت</a>
 
-		<nav>
-			<ul>
-				<a class="a1" style="text-decoration: none;" href="#">
-					<i class="fa-solid fa-bars"></i>
-					منو سایت
-				</a>
+			<a href="#" class="nav-a-hrefs">موقعیت های شغلی</a>
 
-				<a class="a1" style="text-decoration: none;" href="#"><li>موقعیت های شغلی</li></a>
+			<a href="#" class="nav-a-hrefs">انتخاب استان</a>
 
-				<a class="a1" style="text-decoration: none;" href="#"><li>انتخاب استان</li></a>
+			<a href="#" class="nav-a-hrefs">استخدام سراسری</a>
 
-				<a class="a1" style="text-decoration: none;" href="#"><li>استخدام سراسری</li></a>
-				
-				<a class="a1" style="text-decoration: none;" href="#"><li>نمونه سوالات استخدامی</li></a>
+			<a href="#" class="nav-a-hrefs">نمونه سوالات استخدامی</a>
 
-				<a class="a1" style="text-decoration: none;" href="#"><li>رزومه ساز</li></a>
+			<a href="#" class="nav-a-hrefs">رزومه ساز</a>
 
-				<a class="a1" style="text-decoration: none;" href="#"><li>بهترین شرکت ها</li></a>
+			<a href="#" class="nav-a-hrefs">بهترین شرکت ها</a>
 
-				<a class="a1" style="text-decoration: none;" href="#"><li>تماس با ما</li></a>
-			</ul>
-		</nav>
+			<a href="#" class="nav-a-hrefs">تماس با ما</a>
+		</div>
 	</header>
 </body>
 </html>
