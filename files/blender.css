@@ -1,0 +1,119 @@
+* {
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-weight: 500;
+	font-size: 14px;
+}
+
+#a-img {
+	width: 130px;
+}
+
+#div-a-img {
+	float: left;
+	margin-left: 110px;
+}
+
+nav {
+	margin-right: 100px;
+}
+
+nav ul li {
+	margin-top: 2px;
+	display: inline-block;
+	float: right;
+}
+
+.li-a-hrefs {
+	text-decoration: none;
+	transition: 300ms;
+	padding: 12px;
+	text-align: center;
+	border: 4px solid white;
+	color: #595a5f;
+}
+
+.li-a-hrefs:hover{
+	color: #00a4eb;
+	border-bottom: 4px solid #00a4eb;
+}
+
+.li-a-hrefs:active {
+	color: #00a4eb;
+}
+
+#li-a-href {
+	text-decoration: none;
+	padding-left: 18px;
+	padding-right: 20px;
+	padding-top: 10px;
+	padding-bottom: 12px;
+	background-color: #00a4eb;
+	border-radius: 5px;
+	text-align: center;
+	color: white;
+	transition: 130ms;
+}
+
+#li-a-href:hover {
+	box-shadow: 0 0 0 100px rgb(255 255 255 / 30%) inset;
+}
+
+.fa-heart {
+	color: white;
+	margin-right: 2px;
+	font-size: 14px;
+}
+
+.fa-circle {
+	font-size: 9px;
+	vertical-align: top;
+	color: #00a4eb;
+}
+
+main {
+	background-image: url(../files/blender_org_homepage_ellie.jpg);
+	background-size: 100%;
+	max-width: 100%;
+	padding-bottom: 300px;
+}
+
+h1 {
+	padding-top: 150px;
+	padding-left: 120px;
+	font-weight: 700;
+	line-height: 100px;
+}
+
+#a-div-main-href {
+	text-decoration: none;
+	background-color: #00a4eb;
+	color: white;
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 110px;
+	border-radius: 6px;
+}
+
+#a-div-main-href:hover {
+	box-shadow:0 0 0 100px rgb(255 255 255 / 30%) inset;
+}
+
+#a-div-main {
+	color: white;
+	text-decoration: none;
+	background-color: transparent;
+	border: 2px solid white;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 7px;
+	padding-bottom: 7px;
+	border-radius: 6px;
+	margin-left: 10px;
+}
+
+#a-div-main:hover {
+	background-color: white;
+	color: #000;
+}
