@@ -1,0 +1,173 @@
+* {
+	font-family: IRANSans;
+	font-size: 14px;
+}
+.div-footer {
+	margin-top: 263px;
+	padding: 13px;
+	background-color: #171717;
+}
+body {
+	margin: 0;
+	background-color: rgb(32 33 36);
+}
+
+#li-a-img {
+	border: 5px solid rgb(32 33 36);
+	border-radius: 50%;
+	float: right;
+}
+
+#li-a-img:hover {
+	border: 5px solid rgb(49, 50, 54);
+}
+
+.fa-list {
+	position: relative;
+	right: 10px;
+	bottom: 3px;
+}
+
+#li-a {
+	margin-right: 10px;
+	border: 5px solid rgb(32 33 36);
+	border-radius: 50%;
+}
+
+#li-a:hover {
+	background-color: rgb(49, 50, 54);
+	border: 5px solid rgb(49, 50, 54);
+}
+
+.li-a-hrefs {
+	padding-right: 5px;
+}
+
+.li-a-hrefs:hover {
+	text-decoration: underline;
+}
+
+nav ul li {
+	padding-top: 10px;
+	float: right;
+	display: inline-block;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: white;
+	padding-left: 20px;
+}
+
+input[type=search] {
+	background-color: transparent;
+	border: none;
+	outline: none;
+	border: 1px solid #5f6368;
+	border-radius: 20px;
+	padding: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.inputwithicon {
+	width: 570px;
+	position: absolute;
+	padding-top: 50px;
+}
+
+#googlelogo {
+	margin-left: 170px;
+}
+
+.inputwithicon input[type=search]:hover {
+	border-radius: 20px;
+	box-shadow: 0 0 50px rgb(255 255 255 / 10%) inset;
+}
+
+.inputwithicon input[type=search]:focus {
+	box-shadow: 0 0 0 50px rgb(255 255 255 / 10%) inset;
+	border-radius: 20px;
+	color: white;
+}
+
+.inputwithicon,
+.fa-microphone {
+	position: relative;
+	color: #5f6368;
+	left: 520px;
+	bottom: 32px;
+}
+
+.inputwithicon,
+.fa-magnifying-glass {
+	position: relative;
+	color: #5f6368;
+	left: 20px;
+	bottom: 32px;
+}
+
+.div-logo-input-icons {
+	margin: 8px;
+	margin-left: 370px;
+	margin-right: 370px;
+}
+
+.div-hrefs {
+	padding-left: 170px;
+	position: relative;
+	bottom: 20px;
+}
+
+.a-google-href {
+	margin: 4px;
+	border: 1px solid #303134;
+	border-radius: 4px;
+	text-decoration: none;
+	color: #e8eaed;
+	background-color: #303134;
+	padding: 6px;
+	padding-right: 13px;
+	padding-left: 13px;
+}
+
+.a-google-href:hover {
+	border: 1px solid #5f6368;
+}
+
+.googleoffering {
+	margin-left: 230px;
+}
+
+#lang {
+	text-decoration: none;
+	color: #86b4f8;
+}
+
+#lang:hover {
+	text-decoration: underline;
+	color: #86b4f8;
+}
+
+.googlelinks {
+	color: #999da2;
+	padding-left: 25px;
+	text-decoration: none;
+}
+
+.googlelinks2 {
+	float: right;
+	padding-right: 25px;
+	color: #999da2;
+	text-decoration: none;
+}
+
+.googlelinks:hover {
+	text-decoration: underline;
+}
+
+.googlelinks2:hover {
+	text-decoration: underline;
+}

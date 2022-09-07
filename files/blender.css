@@ -1,7 +1,10 @@
 * {
 	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-	font-weight: 500;
 	font-size: 14px;
+}
+
+body {
+	margin: 0;
 }
 
 #a-img {
@@ -18,9 +21,9 @@ nav {
 }
 
 nav ul li {
-	margin-top: 2px;
-	display: inline-block;
+	margin-top: 5px;
 	float: right;
+	display: inline-block;
 }
 
 .li-a-hrefs {
@@ -48,6 +51,7 @@ nav ul li {
 	padding-top: 10px;
 	padding-bottom: 12px;
 	background-color: #00a4eb;
+	border: 2px solid #00a4eb;
 	border-radius: 5px;
 	text-align: center;
 	color: white;
@@ -56,32 +60,38 @@ nav ul li {
 
 #li-a-href:hover {
 	box-shadow: 0 0 0 100px rgb(255 255 255 / 30%) inset;
+	border: 2px solid #00a4eb;
 }
 
 .fa-heart {
+	position: relative;
 	color: white;
-	margin-right: 2px;
 	font-size: 14px;
 }
 
 .fa-circle {
+	position: relative;
+	bottom: 18px;
 	font-size: 9px;
-	vertical-align: top;
 	color: #00a4eb;
 }
 
-main {
-	background-image: url(../files/blender_org_homepage_ellie.jpg);
+#div-h1 {
+	margin: 0;
+}
+
+#div-p {
+	margin-block-start: 0;
+}
+
+#div-h1-a {
+	padding-left: 100px;
+	padding-top: 100px;
+	background-image: url("../files/images/oksana-dobrovolska-s.jpg");
+	box-shadow: 0 0 0 300px rgb(0 0 0 / 30%) inset;
 	background-size: 100%;
 	max-width: 100%;
 	padding-bottom: 300px;
-}
-
-h1 {
-	padding-top: 150px;
-	padding-left: 120px;
-	font-weight: 700;
-	line-height: 100px;
 }
 
 #a-div-main-href {
@@ -92,7 +102,6 @@ h1 {
 	padding-right: 50px;
 	padding-top: 10px;
 	padding-bottom: 10px;
-	margin-left: 110px;
 	border-radius: 6px;
 }
 
