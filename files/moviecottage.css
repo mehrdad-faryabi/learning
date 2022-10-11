@@ -1,0 +1,566 @@
+body {
+	background-color: #121212;
+	direction: rtl;
+	font-family:  "IRANSans", tahoma, sans-serif;
+	font-size: 13px;
+	margin: 0;
+}
+
+header {
+	background-color: #1d1d1d;
+}
+
+#imgcottage {
+	margin-right: 80px;
+	margin-top: 11px;
+	width: 148px;
+	height: 50px;
+	padding-bottom: 7px;
+}
+
+#divhrefs {
+	margin-top: 26px;
+	float: left;
+}
+
+.hrefcontainer {
+	text-decoration: none;
+	color: white;
+	position: relative;
+	left: 245px;
+	margin-left: 15px;
+	transition: .30s;
+}
+
+.hrefcontainer:hover {
+	color: goldenrod;
+}
+
+#loginsearchcontainer {
+	margin-left: 65px;
+	position: relative;
+	bottom: 5px;
+	float: left;
+}
+
+#iconcontainer {
+	font-size: 20px;
+	color: white;
+	position: relative;
+	top: 5px;
+}
+
+#loginhr {
+	text-decoration: none;
+	color: white;
+	border: 1px solid white;
+	padding: 0px 12px;
+	padding-bottom: 6px;
+	padding-top: 4px;
+	border-radius: 6px;
+	transition: .30s;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+#loginhr:hover {
+	color: black;
+	background-color: white;
+}
+
+#signuphr {
+	font-size: 12px;
+	color: #7b7e7e;
+	text-decoration: none;
+}
+
+#navigate {
+	position: absolute;
+	top: 250px;
+	right: 160px;
+}
+
+#navigate2 {
+	position: absolute;
+	top: 250px;
+	right: 60px;
+}
+
+#navigate3 {
+	position: absolute;
+	top: 250px;
+	right: 130px;
+}
+
+#navigate4 {
+	position: absolute;
+	top: 250px;
+	right: 50px;
+}
+
+#navigate5 {
+	position: absolute;
+	top: 250px;
+	right: 90px;
+}
+
+#navigate6 {
+	position: absolute;
+	top: 250px;
+	right: 90px;
+}
+
+#navigate,
+#navigate2,
+#navigate3,
+#navigate4,
+#navigate5,
+#navigate6 {
+	filter: brightness(100%);
+	text-decoration: none;
+	color: white;
+}
+
+#navigateicon {
+	color: white;
+	background-color: rgb(255, 29, 29);
+	padding: 8px 10px;
+	border-radius: 50%;
+	position: absolute;
+	top: 245px;
+	right: 10px;
+}
+
+#navigation {
+	background-image: url("./images/630844bcdb962-13246-191x283.jpg");
+	background-size: 100%;
+	width: 191px;
+	height: 283px;
+}
+
+#navigation2 {
+	background-image: url("./images/PicsArt_08-21-09.33.55-191x283.jpg");
+	background-size: 100%;
+	width: 191px;
+	height: 283px;
+}
+
+#navigation3 {
+	background-image: url("./images/PicsArt_08-22-10.52.05-191x283.jpg");
+	background-size: 100%;
+	width: 191px;
+	height: 283px;
+}
+
+#navigation4 {
+	background-image: url("./images/PicsArt_09-02-12.13.05-191x283.jpg");
+	background-size: 100%;
+	width: 191px;
+	height: 283px;
+}
+
+#navigation5 {
+	background-image: url("./images/PicsArt_09-05-02.10.49-191x283.png");
+	background-size: 100%;
+	width: 191px;
+	height: 283px;
+}
+
+#navigation6 {
+	background-image: url("./images/PicsArt_09-25-01.53.14-191x283.jpg");
+	background-size: 100%;
+	width: 191px;
+	height: 283px;
+}
+
+#navigation,
+#navigation2,
+#navigation3,
+#navigation4,
+#navigation5,
+#navigation6 {
+	display: inline-block;
+	border-radius: 10px;
+	margin-right: 10px;
+	position: relative;
+	right: 60px;
+	top: 40px;
+	transition: .30s;
+}
+
+#navigation:hover,
+#navigation2:hover,
+#navigation3:hover,
+#navigation4:hover,
+#navigation5:hover,
+#navigation6:hover {
+	box-shadow: 0 100px 150px 100px rgb(0 0 0 / 90%) inset;
+	cursor: pointer;
+}
+
+#imdbno {
+	color: goldenrod;
+	text-decoration: none;
+	position: absolute;
+	top: 15px;
+	left: 70px;
+	background-color: black;
+	padding: 3px 8px;
+	border-radius: 5px;
+}
+
+#masktheater {
+	text-decoration: none;
+	color: #adb9c4;
+	background-color: transparent;
+	transition: .30s;
+	padding: 3px 3px;
+	border-radius: 50%;
+}
+
+#masktheater:hover {
+	background-color: white;
+	color: black;
+}
+
+#calender {
+	text-decoration: none;
+	color: #adb9c4;
+	background-color: transparent;
+	transition: .30s;
+	border-radius: 50%;
+	padding: 3px 6px;
+}
+
+#calender:hover {
+	background-color: white;
+	color: black;
+}
+
+#flag {
+	text-decoration: none;
+	color: #adb9c4;
+	background-color: transparent;
+	transition: .30s;
+	border-radius: 50%;
+	padding: 3px 6px;
+}
+
+#flag:hover {
+	background-color: white;
+	color: black;
+}
+
+#language {
+	text-decoration: none;
+	color: #adb9c4;
+	transition: .30s;
+	border-radius: 50%;
+	padding: 2px 3px;
+}
+
+#language:hover {
+	background-color: white;
+	color: black;
+}
+
+#clock {
+	text-decoration: none;
+	color: #adb9c4;
+	transition: .30s;
+	border-radius: 50%;
+	padding: 2px 4px;
+}
+
+#clock:hover {
+	background-color: white;
+	color: black;
+}
+
+#eye {
+	text-decoration: none;
+	color: #adb9c4;
+	transition: .30s;
+	border-radius: 50%;
+	padding: 2px 4px;
+}
+
+#eye:hover {
+	background-color: white;
+	color: black;
+}
+
+#moviegenre1 {
+	position: absolute;
+	margin: 0;
+	top: 95px;
+	right: 240px;
+	color: white;
+}
+
+#moviegenre2 {
+	position: absolute;
+	margin: 0;
+	right: 240px;
+	top: 130px;
+	color: white;
+}
+
+#moviegenre3 {
+	position: absolute;
+	margin: 0;
+	top: 165px;
+	right: 240px;
+	color: white;
+}
+
+#moviegenre3-a {
+	position: absolute;
+	margin: 0;
+	top: 130px;
+	right: 240px;
+	color: white;
+}
+
+#moviegenre4 {
+	position: absolute;
+	margin: 0;
+	top: 200px;
+	right: 242px;
+	color: white;
+}
+
+#moviegenre4-a {
+	position: absolute;
+	margin: 0;
+	top: 165px;
+	right: 242px;
+	color: white;
+}
+
+#moviegenre5 {
+	position: absolute;
+	margin: 0;
+	top: 235px;
+	right: 244px;
+	color: white;
+}
+
+#moviegenre6 {
+	position: absolute;
+	margin: 0;
+	top: 268px;
+	right: 242px;
+	color: white;
+}
+
+#description {
+	background-color: #121212;
+	border-radius: 8px;
+	margin-right: 11px;
+	width: 780px;
+	height: 40px;
+	position: relative;
+	bottom: 12px;
+}
+
+#description2 {
+	background-color: #121212;
+	border-radius: 8px;
+	margin-right: 11px;
+	width: 780px;
+	height: 60px;
+	position: relative;
+	bottom: 12px;
+}
+
+#description3 {
+	background-color: #121212;
+	border-radius: 8px;
+	margin-right: 11px;
+	width: 780px;
+	height: 80px;
+	position: relative;
+	bottom: 12px;
+}
+
+#title {
+	font-size: 14px;
+	position: relative;
+	top: 8px;
+	right: 10px;
+	color: white;
+}
+
+#epdiv {
+	background-color: #212121;
+	border-radius: 8px;
+	margin-right: 11px;
+	width: 780px;
+	height: 40px;
+}
+
+#episode {
+	color: white;
+	margin: 0;
+	position: relative;
+	right: 10px;
+	top: 8px;
+}
+
+#dfile {
+	font-size: 14px;
+	margin-right: 702px;
+	border: 1px solid white;
+	padding: 5px;
+	border-radius: 3px;
+	text-decoration: none;
+	color: white;
+	transition: .30s;
+}
+
+#dfile:hover {
+	background-color: white;
+	color: black;
+}
+
+#dfile2 {
+	font-size: 14px;
+	margin-right: 690px;
+	border: 1px solid white;
+	padding: 5px;
+	border-radius: 3px;
+	text-decoration: none;
+	color: white;
+	transition: .30s;
+	position: relative;
+	top: 15px;
+}
+
+#dfile2:hover {
+	background-color: white;
+	color: black;
+}
+
+.genres {
+	position: relative;
+	bottom: 0px;
+	font-size: 13px;
+	border-radius: 13px;
+	color: white;
+	background-color: #121212;
+	padding: 1px 12px;
+	text-decoration: none;
+	transition: .30s;
+}
+
+.genres:hover {
+	position: relative;
+	bottom: 5px;
+}
+
+.fa-bookmark {
+	color: white;
+	border: 1px solid white;
+	padding: 8px 11px;
+	border-radius: 50%;
+	position: relative;
+	left: 130px;
+	bottom: 20px;
+	transition: .30s;
+}
+
+.fa-bookmark:hover {
+	color: black;
+	background-color: white;
+}
+
+.navopacity {
+	padding: 50%;
+	opacity: 0;
+	transition: .30s;
+}
+
+.navopacity:hover {
+	opacity: 1;
+}
+
+.moviecategory {
+	background-color: #1d1d1d;
+	margin-right: 70px;
+	margin-top: 15px;
+	width: 800px;
+	height: 440px;
+	border-radius: 8px;
+	position: relative;
+	top: 50px;
+	font-size: 16px;
+}
+
+.moviecategory2 {
+	background-color: #1d1d1d;
+	margin-right: 70px;
+	margin-top: 15px;
+	width: 800px;
+	height: 510px;
+	border-radius: 8px;
+	position: relative;
+	top: 50px;
+	font-size: 16px;
+}
+
+.moviecategory3 {
+	background-color: #1d1d1d;
+	margin-right: 70px;
+	margin-top: 15px;
+	width: 800px;
+	height: 490px;
+	border-radius: 8px;
+	position: relative;
+	top: 50px;
+	font-size: 16px;
+}
+
+.moviecategory4 {
+	background-color: #1d1d1d;
+	margin-right: 70px;
+	margin-top: 15px;
+	width: 800px;
+	height: 530px;
+	border-radius: 8px;
+	position: relative;
+	top: 50px;
+	font-size: 16px;
+}
+
+.moviepics {
+	width: 210px;
+	height: 315px;
+	border-radius: 5px;
+	margin-right: 13px;
+	margin-top: 13px;
+}
+
+.imdbimage {
+	width: 40px;
+	position: relative;
+	top: 5px;
+	border-radius: 5px;
+}
+
+.movietitles {
+	text-decoration: none;
+	color: white;
+	position: absolute;
+	top: 15px;
+	right: 240px;
+}
+
+.movieratings {
+	text-decoration: none;
+	color: white;
+	position: absolute;
+	top: 60px;
+	right: 240px;
+	font-size: 12px;
+}
